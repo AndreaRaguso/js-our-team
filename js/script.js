@@ -31,13 +31,14 @@ const team = [
     },
 ];
 
+
 for (let i = 0; i < team.length; i++) {
 
-    console.log('PERSONA ' + i);
+    document.write('PERSONA ' + i + "<br>");
 
     for (let key in team[i]){
-        console.log('-', key, team[i][key]);
+        document.write('-', key, team[i][key], "<br>");
     }
 
-    console.log('----------------------------------');
+    document.write('----------------------------------' + "<br>");
 }
